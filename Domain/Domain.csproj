@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Domain</AssemblyName>
+    <PackageId>Domain</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChaosMonkey.Guards.NetStandard" Version="1.0.23" />
+    <PackageReference Include="FluentAssertions" Version="5.7.0" />
+    <PackageReference Include="Marten" Version="3.6.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>
